@@ -9,7 +9,7 @@ Exercício (em grupo) da Disciplina de <strong>Programação web I</strong>, no 
 <strong>Autores:</strong>
   <ol>
     <li>Leonardo da Rocha França | Github:https://github.com/LeonardoRochaFranca | Linkedin:https://www.linkedin.com/in/leonardo-fran%C3%A7aa/ </li>
-    <li>Max André da Silva | Github:https://github.com/Davi-Lv | Linkedin: </li>
-    <li>Vinicius Marcos Ferreira | Github: | Linkedin: </li>
-    <li>José Davi Mordonho Guimarães | Github: | Linkedin: </li>
+    <li>Max André da Silva | Github:</li>
+    <li>Vinicius Marcos Ferreira | Github:https://github.com/ViniPanda </li>
+    <li>José Davi Mordonho Guimarães | Github:https://github.com/Davi-Lv </li>
   </ol>
