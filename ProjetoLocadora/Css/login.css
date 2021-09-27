@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap');
+
+fieldset{
+    width: 230px; position: relative; left: 60%; margin-left: -260px;
+    border: 2px solid;
+    margin-top: 14%;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold   ;
+    
+}
+
+.logo{
+    position: absolute;
+    left: 50%;
+    top: 18%;
+    transform: translateX(-50%) translateY(-50%);
+    
+}
+
+
+body{
+    background-color: #F2CDA0;
+}
+
+#primeiro{
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+}
+
+#bt{
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+}

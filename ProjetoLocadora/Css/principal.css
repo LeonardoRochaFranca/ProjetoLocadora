@@ -1,0 +1,198 @@
+body,h1,h2,ul,li,ol,p,header{
+    margin:0px;
+    padding:0px;
+    list-style:none;
+}
+
+@font-face {
+    font-family: Title;
+    src: url(../Fontes/BungeeShade-Regular.ttf);
+}
+@font-face {
+    font-family: SubTitle;
+    src: url(../Fontes/LobsterTwo-Italic.ttf);
+}
+
+@font-face {
+    font-family: Text;
+    src: url(../Fontes/Lato-Regular.ttf);
+}
+
+
+body{
+    background-color: #F2CDA0; 
+    
+}
+.logo{
+    width: 280px;
+    height: 127px;
+    float:left;
+}
+.menu{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    background-color:#593718;
+    width: 100%;
+}
+.menu ul{
+    display:flex;
+    flex-wrap:wrap;
+    padding:10px;
+}
+
+
+.menu li a{
+    display:block;
+    padding-right: 5px;
+    margin-right: 10px;
+    color: #BF8049;
+    text-decoration: none;
+    font-family: Text;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    border-right: 1px groove #F2CDA0;
+}
+
+
+
+h2{
+    text-align: center;
+    padding: 5px;
+    margin:30px;
+    border-bottom: 1px groove #222326 ;
+    border-top: 1px groove #222326 ;
+
+}
+
+#te12{
+    border-radius: 10px;
+    margin-right:  35%;
+    margin-left: 30%;
+    
+    
+}
+
+
+h3{
+   text-align: center;
+    padding: 1px;
+    margin:1px;
+    border-bottom: 1px groove #222326 ;
+    border-top: 1px groove #222326 ;
+} 
+h2,h1{
+    font-family: Title;
+    color:#593718;
+}
+h3{
+    font-family: SubTitle;
+    color:#BF8049;
+}
+
+p, a, li{
+    font-family: Text;
+    color:#222326;
+}
+#except{
+    border:none;
+    padding-bottom:25px;
+    padding-top:25px;
+    padding-right: 300px;
+    text-align:center;
+}
+
+.menu li a:hover{
+    background-color:#F2CDA0;
+    font-weight: bold;
+    color:#593718;
+}
+
+
+
+.rodape {
+    background-color: #593718;
+    padding: 20px;
+    text-align: center;
+}
+
+.rodape p {
+  color: #F2CDA0;
+}
+
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.galeria{
+    margin: 30px auto;
+    width: 600px;
+    height: 400px;
+    padding-left: 100px;
+    position: relative;
+    overflow: hidden;
+}
+
+.foto{
+    position: absolute;
+    opacity: 0;
+    animation-name: animacao;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animacao{
+    25%{
+        opacity: 1;
+        transform:scale(1.1,1.1);
+    }
+
+    50%{
+        opacity: 0;
+    }
+}
+
+.foto:nth-child(1){
+    animation-delay: 3s;
+}
+.foto:nth-child(2){
+    animation-delay: 10s;
+    
+}
+.foto:nth-child(3){
+    animation-delay: 15s;
+}
+.foto:nth-child(4){
+    animation-delay: 20s;
+}
+
+
+
+
+
+.elemento {
+    width: 300px;
+    height: 380px;
+    line-height: 50px; /*Altura que o texto vai ficar dentro da div*/
+    color: #FFF;
+    text-align: center;
+  }
+
+
+  .primeiroElemento {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background-color:#593718;
+  }
+
+  h4{
+    font-family: SubTitle;
+    color:#BF8049;
+  }
+#te67{
+      color: #BF8049;
+  }
